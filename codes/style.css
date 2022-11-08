@@ -1,0 +1,141 @@
+header{
+    width: 700px;
+    height :200px;
+    /* border: 1px solid black; */
+    margin: 10px auto;
+}
+header #left{
+    width:200px;
+    height: 180px;
+    /* border: 1px solid black; */
+    margin: 10px;
+    float: left;
+    background-image: url('../imgs/logo.png');
+}
+header #right{
+    width:470px;
+    height: 180px;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    float: left;
+}
+#right #right-l{
+    width:370px;
+    height: 180px;
+    /* border: 1px solid black; */
+    float: left;
+}
+#right p{
+    width:370px;
+    height: 30px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-color:rgb(150, 143, 139);
+
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+    line-height: 30px;
+    text-align: center;
+    color: white;
+}
+#right #time{
+    height: 80px;
+    line-height: 80px;
+    font-size: 50px;
+    background-color: black;
+}
+#right #right-r{
+    width:80px;
+    height: 180px;
+    /* border: 1px solid black; */
+    float: left;
+    margin-left: 10px;
+}
+#right #right-r a{
+    display: block;
+    width: 42px;
+    height:42px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    margin-top: 12px;
+    margin-left: 25px;
+}
+#music{
+    background-image: url('../imgs/音量.png');
+    background-size: cover;
+}
+#escape{
+    background-image: url('../imgs/撤回.jpg');
+    background-size: cover;
+}
+#restart{
+    background-image: url('../imgs/刷新.jpg');
+    background-size: cover;
+}
+#main{
+    width:700px;
+    height: 700px;
+    border-radius: 20px;
+    background-color:rgb(55, 50, 48);
+    margin-left: auto;
+    margin-right: auto;
+}
+#main div{
+    width:160px;
+    height: 160px;
+    border-radius: 20px;
+    background-color: darkgrey;
+    
+    float: left;
+    margin-top: 12px;
+    margin-left: 12px;
+
+    text-align: center;
+    font-size: 55px;
+    line-height: 160px;
+}
+#main .c2{
+    background-color:rgb(225, 223, 223);
+    color: black;
+}
+#main .c4{
+    background-color:rgb(243, 210, 62);
+    color: black;
+}
+#main .c8{
+    background-color:rgb(243, 174, 62);
+    color: white;
+}
+#main .c16{
+    background-color:rgb(243, 107, 62);
+    color: white;
+}
+#main .c32{
+    background-color:rgb(243, 62, 62);
+    color: white;
+}
+#main .c64{
+    background-color:rgb(62, 219, 243);
+    color: white;
+}
+#main .c128{
+    background-color:rgb(44, 230, 202);
+    color: white;
+}
+#main .c256{
+    background-color:rgb(62, 152, 243);
+    color: white;
+}
+#main .c512{
+    background-color:rgb(30, 69, 167);
+    color: white;
+}
+#main .c1024{
+    background-color:rgb(24, 21, 89);
+    color: white;
+}
+#main .c2048{
+    background-color:rgb(0, 0, 0);
+    color: white;
+}
