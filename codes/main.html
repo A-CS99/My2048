@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My2048</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
     <script src="./logic.js"></script>
 </head>
 <body>
@@ -17,11 +17,11 @@
                 <p id="time">0</p>
                 <p>
                     得分：
-                    <span>0</span>
+                    <span id="score">0</span>
                 </p>
                 <p>
                     最高纪录：
-                    <span>0</span>
+                    <span id="highestScore">0</span>
                 </p>
             </div>
             <div id="right-r">
@@ -32,22 +32,23 @@
         </div>
     </header>
     <div id="main">
-        <div class="c2">2</div>
-        <div class="c4">4</div>
-        <div class="c8">8</div>
-        <div class="c16">16</div>
-        <div class="c32">32</div>
-        <div class="c64">64</div>
-        <div class="c128">128</div>
-        <div class="c256">256</div>
-        <div class="c512">512</div>
-        <div class="c1024">1024</div>
-        <div class="c2048">2048</div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
         <div></div>
         <div></div>
         <div></div>
         <div></div>
         <div></div>
     </div>
+    <audio id="sound" src="../audios/音效.wav"></audio>
 </body>
 </html>
